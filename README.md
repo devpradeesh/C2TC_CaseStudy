@@ -43,3 +43,68 @@ spring.datasource.password=yourpassword
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
+## 📦 Dependencies Used
+
+- spring-boot-starter-web
+- spring-boot-starter-data-jpa
+- spring-boot-starter-validation
+- mysql-connector-j
+- lombok
+- spring-boot-devtools
+
+
+## 🧩 System Design (Concept)
+
+The application follows layered architecture:
+
+Controller → Service → Repository → Database
+
+Entities involved:
+- Food
+- Customer
+- Order
+
+
+## 🛠️ Tools Used
+
+- Eclipse / IntelliJ IDEA
+- Postman (API Testing)
+- MySQL Workbench
+- Git & GitHub
+
+
+## 🔍 API Testing using Postman
+
+All APIs are tested using Postman.
+
+Example:
+
+POST /food  
+Body:
+{
+  "name": "Pizza",
+  "price": 250
+}
+
+
+## 🧠 Concepts Covered
+
+- REST Controller
+- Dependency Injection
+- JPA Repository
+- Hibernate ORM
+- Exception Handling
+- MVC Architecture
+
+
+## 🚧 Future Enhancements
+
+- User Authentication (Spring Security)
+- Swagger API Documentation
+- Frontend Integration (React / Angular)
+- Docker Deployment
+
+
+## 📜 License
+
+This project is developed for educational purposes as part of C2TC training.
